@@ -15,7 +15,7 @@ A key feature of this application is the ability to deep-link into a specific mo
 
     ```bash
     git clone https://github.com/recallai/recording-viewer-demo.git
-    cd infinite-retention-demo
+    cd recording-viewer-demo
     ```
 
 2.  **Install Dependencies**
