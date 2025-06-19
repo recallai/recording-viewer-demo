@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meeting Recording</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/meeting.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="meeting-title">Meeting Recording</h1>
+      <a href="/" class="back-link">&larr; Back to Recordings</a>
+    </header>
+    <div class="meeting-container">
+      <div class="video-container">
+        <video id="meeting-video" controls autoplay></video>
+        <div class="meeting-metadata">
+          <span id="meeting-date"></span>
+          <span id="participant-count" class="metadata-item"></span>
+          <span id="recording-duration" class="metadata-item"></span>
+          <button id="copy-timestamp-btn" class="timestamp-btn">
+            Link to this Moment
+          </button>
+        </div>
+      </div>
+      <div class="transcript-container">
+        <h2>Transcript</h2>
+        <div id="transcript-content" class="transcript-content">
+          <p>Loading transcript...</p>
+        </div>
+      </div>
+    </div>
+    <script src="/meeting.js"></script>
+  </body>
+</html>
